@@ -1,0 +1,12 @@
+[project]
+name = "video-toolkit"
+version = "1.0.0"
+description = "CLI tool to download and trim videos"
+requires-python = ">=3.9"
+
+dependencies = [
+    "yt-dlp"
+]
+
+[project.scripts]
+video-toolkit = "video_toolkit.cli:main"
