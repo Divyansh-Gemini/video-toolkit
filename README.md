@@ -22,16 +22,50 @@ Clone the repository:
 ```bash
 git clone https://github.com/Divyansh-Gemini/video-toolkit.git
 cd video-toolkit
-````
+```
 
 ### As an end user (recommended)
 
+#### 1. Install pipx
+
+**macOS (Homebrew – recommended)**
+
 ```bash
-pipx install video-toolkit
+brew install pipx
+pipx ensurepath
 ```
 
-> `pipx` automatically installs all required **Python dependencies**.
-> You **do NOT** need to run `pip install -r requirements.txt`.
+Restart your terminal after this.
+
+**Windows**
+
+```bash
+python -m pip install --user pipx
+python -m pipx ensurepath
+```
+
+**Linux (Debian / Ubuntu)**
+
+```bash
+sudo apt update
+sudo apt install pipx
+pipx ensurepath
+```
+
+Restart your terminal after installation.
+
+Verify pipx:
+
+```bash
+pipx --version
+```
+
+#### 2. Install Video Toolkit using pipx
+
+```bash
+cd video-toolkit
+pipx install .
+```
 
 ### As a developer
 
@@ -191,7 +225,7 @@ After installing (globally or in editable mode), you can run `video-toolkit` fro
 
 ```bash
 video-toolkit --help
-````
+```
 
 This displays the list of all available commands:
 
