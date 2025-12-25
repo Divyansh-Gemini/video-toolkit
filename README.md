@@ -209,6 +209,12 @@ video-toolkit download-trim "https://youtu.be/VIDEO_ID" --start 00:01:00 --end 0
 
 ---
 
+If you ever get the following error try updating `yt-dlp` or using a VPN.
+
+<img width="1512" height="407" alt="image" src="https://github.com/user-attachments/assets/eeaa0e04-b45c-4777-af6d-c918da752c74" />
+
+---
+
 ## Development / Local Testing
 
 If you want to test the CLI **without installing globally**:
